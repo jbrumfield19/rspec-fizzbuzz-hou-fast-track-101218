@@ -3,6 +3,11 @@
 def fizzbuzz
   x=1
   while x<=100
-  puts x
-  x+=1
+ 
+  if x%3==0 puts "fizz"
+  elsif x%5==0 
+  put
+  else puts x 
+  end
+   x+=1
 end
